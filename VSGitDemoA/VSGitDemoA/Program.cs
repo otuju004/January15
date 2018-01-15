@@ -8,10 +8,12 @@ namespace VSGitDemoA
 {
     class Program
     {
-        static void Main(string[] args)
-        {//This is made in Github
-            Console.Writeline("hello there")
-               
+       public static void Main()
+            {
+                string[] colours = { "Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Violet", "White", "Black","Gray" };
+                Random rnd = new Random();
+                int index = rnd.Next(0, colours.Length);
+                Console.WriteLine("Colour of the day {0}", colours[index]);
+            }
         }
-    }
 }
