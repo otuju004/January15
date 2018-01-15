@@ -9,7 +9,9 @@ namespace VSGitDemoA
     class Program
     {
         static void Main(string[] args)
-        {//This is made in Github
+        {
+            //This is made in Github
+        
         }
     }
 }
